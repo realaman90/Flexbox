@@ -1,0 +1,172 @@
+/* unversal Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    font-size: 22px;
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+}
+
+/* header */
+
+header{
+    background-color: black;
+    width: 100%;
+    border: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    color: white;
+    height: 69px;
+    overflow: hidden;
+}
+
+.logo{
+    margin-left: 10px;
+    height: 50px;
+}
+.nav-area {
+    display:flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-area li{  
+    display: block;
+    padding: 1rem;
+}
+.nav-area li a {
+    color: white;
+    font-size: 0.8rem;
+}
+
+/* main */
+.main{
+    position: relative;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* banner-container */
+.banner-container{
+    display: flex;
+     
+    background-image:url("../images/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+.misson{
+    justify-content: center;
+    background-color: black;
+  
+    width:100%;
+    text-align: center;
+}
+.misson h2,
+.misson h4 {
+    color: seashell;
+    margin: .6rem;
+}
+
+.month-tea-container{
+    display: block;
+  
+    
+    width:1000px;
+    margin: 0 auto;
+  
+}
+.teacontainer{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+/* Tea of the month */
+.products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    
+}
+.product-description img {
+    height: 200px;
+    width: 300px;
+     padding: 0 20px;
+}
+.product-description h4{
+    padding: 10px;
+    text-align: center;
+}
+/* Locations */
+.Locations-banner{
+    display: flex;
+    background-image: url("../images/img-locations-background.webp");
+    width: 1200px;
+    height: 500px;
+    background-repeat: no-repeat;     
+    background-position: 100% 15%;
+    margin: 5% auto;
+    justify-content: center;
+  
+ 
+}
+.Locations{
+    width: 100%;
+    margin-top: 6%;
+    text-align: center;
+    
+}
+.threelocationscontainer {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 110px;
+    margin-right: 110px;
+
+    justify-content: space-around;
+
+    
+}
+.location-container {
+    background-color: rgba(0,0,0,1);
+    width: 300px;
+    height:250px;
+    line-height: 2.3rem;
+ 
+
+}
+.location-container h4{
+    font-size: .8rem;
+    
+}
+
+/* Address */
+.address{
+    height: 200px;
+    text-align: center;
+    line-height: 3rem;
+}
+
+footer{
+    position: relative;
+    top: 100px;
+    font-size: 0.7rem;
+    margin: 10px;
+
+}
